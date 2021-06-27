@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+
+html {
+	overflow-y: scroll; 
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body, p, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+li {
+	list-style: none;
+    font-family: 'Homemade Apple', cursive;
+}
+a {
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/* ヘッダー */
+#header{
+    background-color: black;
+    box-shadow: 0px 4px gray;
+    height: 10vh;
+    padding: 0;
+    width:100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+#header h1{
+    margin-left: 3em;
+    color: #fff;
+    font-size: 1.875vw;
+    font-weight: bold;
+}
+
+#topnav ul li{
+    float: left;
+    list-style: none;
+}
+
+#topnav ul li a{
+    color: #fff;
+    font-size: 1.25vw;
+    margin-right: 3em;
+}
+
+#topnav ul li a:hover{
+    color: gray;
+}
+
+
+/* intro */
+#intro {
+    background: url(alex.jpeg)center center fixed no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Profile,Work,Skills */
+
+#sec1 h2 {
+    font-size: 50px;
+    margin: 120px 0 50px 0;
+    font-family:'Montserrat Subrayada', sans-serif;
+}
+
+#sec1 p {
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+
+#sec1 .port .portfolio {
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: left;
+    display: flex;
+}
+
+#sec1 .port .portfolio img {
+    width: 308px;
+    height: 308px;
+}
+
+#sec1 .port .portfolio p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+#sec1 .port .portfolio p.port_title {
+    text-align: center;
+    font-size: 18px;
+}
+
+#sec1 .portfolio_text {
+    margin-left: 50px;
+}
+
+#sec1 .portfolio_text2 {
+    margin: 70px;
+}
+
+/* image */
+
+#sec5 {
+	background: url(spitz.jpeg) no-repeat center center;
+	background-size: cover;
+    height: 100vh;
+}
+
+#sec5 p {
+	font-size: 20px;
+	line-height: 2;
+	margin-bottom: 16px;
+}
+#sec5 p br {
+	display: none;
+}
+
+
+/* footer */
+#footer{
+    border-top: 5px solid rgba(0,0,0,0.3);
+    height: 10vh;
+    margin-top: 20vh;
+}
+
+.copyrights{
+    text-align: center;
+    line-height: 10vh;
+}
